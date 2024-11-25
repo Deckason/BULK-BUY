@@ -19,7 +19,7 @@
     },
     "production": {
       "distribution": "store",
-      "autoIncrement": "versionCode",
+      "autoIncrement": true,
       "android": {
         "gradleCommand": ":app:bundleRelease"
       }
